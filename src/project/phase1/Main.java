@@ -11,8 +11,10 @@ public class Main {
 		
 		File file = new File(DIR);
 		
-		for(;;)
+		for(;;)      //infinite loop
 		{
+			System.out.println("Welcome to the Portal");
+			System.out.println("Please select your choice from the below :");
 			Scanner sc = new Scanner(System.in);
 			
 			System.out.println("1. Retrive files from directory .. ");
